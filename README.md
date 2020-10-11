@@ -1,9 +1,9 @@
-Mobile Apps Development Community Challenge
+<h1> Mobile Apps Development Community Challenge </h1>
 
-App Name: Agri Informatics App
-Language: Kotlin
+App Name: Agri Informatics App <br>
+Language: Kotlin <br>
 
-------------------
-Nama : Muhammad Ariq Aziz
-NIM : G6401201093
-Departemen : Ilmu Komputer
+------------------ <br>
+Nama : Muhammad Ariq Aziz <br>
+NIM : G6401201093 <br>
+Departemen : Ilmu Komputer <br>
