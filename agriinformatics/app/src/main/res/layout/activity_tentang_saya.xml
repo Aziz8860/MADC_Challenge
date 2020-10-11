@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginStart="40dp"
+    android:layout_marginEnd="40dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="30dp"
+    android:background="@drawable/bg_detail"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".TentangSaya">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/profile"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:alpha="0.5"
+        android:gravity="center_horizontal"
+        android:text="Nama"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/nameUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="Muhammad Ariq Aziz"
+        android:textSize="18sp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:alpha="0.5"
+        android:gravity="center_horizontal"
+        android:text="NIM"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/companyUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="G6401201093"
+        android:textSize="18sp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:alpha="0.5"
+        android:gravity="center_horizontal"
+        android:text="Departemen"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/locationUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="Ilmu Komputer"
+        android:textSize="18sp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:alpha="0.5"
+        android:gravity="center_horizontal"
+        android:text="Fakultas"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/repositoryUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="Fakultas Matematika dan Ilmu Pengetahuan Alam"
+        android:textSize="18sp"
+        android:textColor="#fff" />
+
+</LinearLayout>

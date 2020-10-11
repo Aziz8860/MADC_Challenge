@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Counter">
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:id="@+id/nilai"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/sempoa_img"
+        android:layout_below="@id/nilai"
+        android:layout_above="@id/btnKurang" />
+
+    <Button
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnKurang"
+        android:textSize="24sp"
+        android:textColor="#4169E1"
+        android:background="@drawable/custom_button2"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/nilai" />
+
+    <Button
+        android:text="+"
+        android:background="@drawable/custom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTambah"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:layout_alignBaseline="@+id/btnKurang"
+        android:layout_alignBottom="@+id/btnKurang"
+        android:layout_toEndOf="@+id/nilai" />
+
+    <Button
+        android:text="RESET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTambah"
+        android:id="@+id/btnReset"
+        android:background="@drawable/custom_button3"
+        android:layout_marginTop="15dp"
+        android:layout_alignEnd="@+id/btnTambah"
+        android:layout_alignStart="@+id/btnKurang" />
+</RelativeLayout>
